@@ -1,0 +1,7 @@
+H:\Y2\OOP\Week3\labSheet\LabSheet\Ex4\bin\Debug\Ex4.exe.config
+H:\Y2\OOP\Week3\labSheet\LabSheet\Ex4\bin\Debug\Ex4.exe
+H:\Y2\OOP\Week3\labSheet\LabSheet\Ex4\bin\Debug\Ex4.pdb
+H:\Y2\OOP\Week3\labSheet\LabSheet\Ex4\obj\Debug\Ex4.csprojAssemblyReference.cache
+H:\Y2\OOP\Week3\labSheet\LabSheet\Ex4\obj\Debug\Ex4.csproj.CoreCompileInputs.cache
+H:\Y2\OOP\Week3\labSheet\LabSheet\Ex4\obj\Debug\Ex4.exe
+H:\Y2\OOP\Week3\labSheet\LabSheet\Ex4\obj\Debug\Ex4.pdb
