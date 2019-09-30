@@ -8,13 +8,13 @@ namespace Ex1
 {
     class Car
     {
-        private string Make { get; set; }
-        private string Model { get; set; }
-        private string CurrentSpeed { get; set; }
-        private double EngineSize { get; set; }
+        public string Make { get;  private set; }
+        public string Model { get; private set; }
+        public int CurrentSpeed { get; private set; }
+        public double EngineSize { get; private set; }
 
         public Car() { }
-        public Car(string make, string model, string currentSpeed, double engineSize)
+        public Car(string make, string model, int currentSpeed, double engineSize)
         {
             Make = make;
             Model = model;
@@ -27,8 +27,24 @@ namespace Ex1
             string format = "{0:-25}{1:-10}";
             Console.WriteLine(format,"Make: ",Make);
             Console.WriteLine(format, "Model: ", Model);
-            Console.WriteLine(format, "CurrentSpeed: ", CurrentSpeed);
-            Console.WriteLine(format, "EngineSize: ",EngineSize.ToString());
+            Console.WriteLine(format, "Current Speed: ", CurrentSpeed.ToString()+" KMPH");
+            Console.WriteLine(format, "Engine Size: ",EngineSize.ToString());
+            Console.WriteLine("------------------------------------------");
+        }
+
+        public void Accelerate(int amount)
+        {
+            CurrentSpeed += amount;
+        }
+
+        public void Accelerate()
+        {
+            Accelerate(10);
+        }
+
+        public override string ToString()
+        {
+            return Make.ToString() + Model.ToString() + CurrentSpeed.ToString() + EngineSize.ToString();
         }
     }
 }
