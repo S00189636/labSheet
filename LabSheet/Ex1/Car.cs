@@ -24,7 +24,7 @@ namespace Ex1
 
         public void PrintProperties()
         {
-            string format = "{0:-25}{1:-10}";
+            string format = "{0:-35}{1:-10}";
             Console.WriteLine(format,"Make: ",Make);
             Console.WriteLine(format, "Model: ", Model);
             Console.WriteLine(format, "Current Speed: ", CurrentSpeed.ToString()+" KMPH");
@@ -44,7 +44,7 @@ namespace Ex1
 
         public override string ToString()
         {
-            return Make.ToString() + Model.ToString() + CurrentSpeed.ToString() + EngineSize.ToString();
+            return Make.ToString() +"\n"+ Model.ToString()+"\n" + CurrentSpeed.ToString()+"\n" + EngineSize.ToString();
         }
     }
 }
