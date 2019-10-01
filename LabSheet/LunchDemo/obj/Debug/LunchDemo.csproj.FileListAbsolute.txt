@@ -1,0 +1,7 @@
+H:\Y2\OOP\Week3\labSheet\LabSheet\LunchDemo\bin\Debug\LunchDemo.exe.config
+H:\Y2\OOP\Week3\labSheet\LabSheet\LunchDemo\bin\Debug\LunchDemo.exe
+H:\Y2\OOP\Week3\labSheet\LabSheet\LunchDemo\bin\Debug\LunchDemo.pdb
+H:\Y2\OOP\Week3\labSheet\LabSheet\LunchDemo\obj\Debug\LunchDemo.csprojAssemblyReference.cache
+H:\Y2\OOP\Week3\labSheet\LabSheet\LunchDemo\obj\Debug\LunchDemo.csproj.CoreCompileInputs.cache
+H:\Y2\OOP\Week3\labSheet\LabSheet\LunchDemo\obj\Debug\LunchDemo.exe
+H:\Y2\OOP\Week3\labSheet\LabSheet\LunchDemo\obj\Debug\LunchDemo.pdb

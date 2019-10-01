@@ -13,9 +13,9 @@ namespace Ex5
         {
             CashRegister register1 = new CashRegister("CR1");
             CashRegister register2 = new CashRegister();
-            Store store = new Store();
-            store.AddCashRegister(register1);
-            store.AddCashRegister(register2);
+            //Store store = new Store();
+            //store.AddCashRegister(register1);
+            //store.AddCashRegister(register2);
 
             register1.AddItem(58.5);
             register1.AddItem(5.9);
@@ -36,8 +36,8 @@ namespace Ex5
             PrintReport(register2);
             Console.WriteLine();
 
-            store.PrintReport();
-
+            //store.PrintReport();
+            PrintStoreReport();
             Console.ReadLine();
         }
 
@@ -50,6 +50,13 @@ namespace Ex5
         {
             Console.WriteLine("Total cash in {0} is: {1:C} ", register.Name, register.GetTotalCash());
             Console.WriteLine("Total Items count in {0} is: {1} ", register.Name, register.GetTotalItems());
+        }
+
+        private static void PrintStoreReport()
+        {
+            Console.WriteLine();
+            Console.WriteLine("Total cash in {0} Cash registers : {1:c} ", 2, CashRegister.TotalCashAllReg);
+            Console.WriteLine("Total Items count in {0} Cash registers is: {1} ", 2, CashRegister.totalItemsAllReg);
         }
     }
 }
