@@ -1,0 +1,7 @@
+H:\Y2\OOP\Week3\labSheet\LabSheet\SchoolsDemo\bin\Debug\SchoolsDemo.exe.config
+H:\Y2\OOP\Week3\labSheet\LabSheet\SchoolsDemo\bin\Debug\SchoolsDemo.exe
+H:\Y2\OOP\Week3\labSheet\LabSheet\SchoolsDemo\bin\Debug\SchoolsDemo.pdb
+H:\Y2\OOP\Week3\labSheet\LabSheet\SchoolsDemo\obj\Debug\SchoolsDemo.csprojAssemblyReference.cache
+H:\Y2\OOP\Week3\labSheet\LabSheet\SchoolsDemo\obj\Debug\SchoolsDemo.csproj.CoreCompileInputs.cache
+H:\Y2\OOP\Week3\labSheet\LabSheet\SchoolsDemo\obj\Debug\SchoolsDemo.exe
+H:\Y2\OOP\Week3\labSheet\LabSheet\SchoolsDemo\obj\Debug\SchoolsDemo.pdb
